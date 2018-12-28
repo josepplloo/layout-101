@@ -4,10 +4,12 @@
   box-sizing: border-box;
 }
 
-:root {
-  --gap: 20px;
-  --card-width: 278px;
-  --card-height: 384px;
+.red-text {
+  color: red;
+  font-size: 36px;
+  font-family: 'Lobster';
+  padding: 10px 10px 10px 10px;
+
 }
 
 .container {
@@ -15,82 +17,21 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vw;
+  padding: 10px 10px 10px 10px;
+  height: 30vh;
+  width: 30vw;
 }
 
-.card {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: var(--gap);
-  height: var(--card-height);
-  width: var(--card-width);
-  border: solid black 1px;
-  border-radius: 20px;
-  padding: 10px;
+.cards {
+  padding: 10px 10px 10px 10px;
+  height: 10vh;
+  width: 10vw;
+  font-family: 'Lobster';
 }
 
-.img-box {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-}
-
-.forbutton {
-  display: flex;
-  flex-direction: column;
-  align-content: flex-end;
-  margin-top: auto;
-
-}
-
-.text-box {
-  margin: 10px;
-  padding: 1px;
-}
-
-.list-box {
-  display: flex;
-}
-
-.mybutton {
-  position: relative;
-  align-self: center;
-  border-radius: 10px;
-  width: 220px;
-  height: 25px;
-  color: white;
-  background-color: dodgerblue;
-}
-
-.mybutton:hover {
-  animation-name: background-color;
-  animation-duration: 500ms;
-}
-
-@keyframes background-color {
-  100% {
-    background-color: black;
-  }
-}
-
-img {
-  align-self: center;
-}
-
-h1 {
-  font-family: Avenir, Roboto, Helvetica, san-serif;
-  font-size: 18px;
-}
-
-p {
-  font-family: Avenir, Roboto, Helvetica, san-serif;
-  font-size: 12px;
-}
-
-li {
-  font-family: Avenir, Roboto, Helvetica, san-serif;
-  font-size: 12px;
+.monopoly {
+  padding: 10px 10px 10px 10px;
+  height: 10vh;
+  width: 10vw;
+  font-family: 'Lobster';
 }

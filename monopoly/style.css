@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.mylabel {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.mycontainer {
+  padding: 10px 10px 10px 10px;
+}
+
+.cards-container {
+  padding: 10px 10px 10px 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 10vw);
+  grid-gap: 10px;
+  justify-content: center;
+  align-content: center;
+  grid-template-areas:
+  "card-1 card-2 card-3 card-4 card-5"
+  "card-16 . . . card-6"
+  "card-15 . . . card-7"
+  "card-14 . . . card-8"
+  "card-13 card-12 card-11 card-10 card-9";
+}
+
+.cards-container li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid black;
+  height: 18vh;
+  width: 10vw;
+  list-style-type: none;
+
+}
+
+input[type="checkbox"]:checked ~ ul li {
+  border: 5px solid black;
+  background: rebeccapurple;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 40px;
+}
+
+input[type="checkbox"]:checked ~ ul .card-1 span {
+  transform: rotate(135deg);
+}
+
+input[type="checkbox"]:checked ~ ul .card-2 span, 
+input[type="checkbox"]:checked ~ ul .card-3 span,
+input[type="checkbox"]:checked ~ ul .card-4 span {
+  transform: rotate(180deg);
+}
+
+input[type="checkbox"]:checked ~ ul .card-2 , 
+input[type="checkbox"]:checked ~ ul .card-3 ,
+input[type="checkbox"]:checked ~ ul .card-4 {
+  background: linear-gradient(to top, #21A55B 0px, #21A55B 2vw, black 2vw, black calc(2vw + 4px), white calc(2vw + 4px), white 10vw);
+}
+
+input[type="checkbox"]:checked ~ ul .card-5 span {
+  transform: rotate(70deg);
+}
+
+input[type="checkbox"]:checked ~ ul .card-6 span, 
+input[type="checkbox"]:checked ~ ul .card-7 span,
+input[type="checkbox"]:checked ~ ul .card-8 span {
+  transform: rotate(-90deg);
+}
+
+input[type="checkbox"]:checked ~ ul .card-6 , 
+input[type="checkbox"]:checked ~ ul .card-7 ,
+input[type="checkbox"]:checked ~ ul .card-8 {
+  background: linear-gradient(to right, #EA8B39 0px, #EA8B39 2vw, black 2vw, black calc(2vw + 4px), white calc(2vw + 4px), white 10vw);
+}
+
+
+input[type="checkbox"]:checked ~ ul .card-9 span {
+  transform: rotate(-45deg);
+}
+
+input[type="checkbox"]:checked ~ ul .card-10 , 
+input[type="checkbox"]:checked ~ ul .card-11 ,
+input[type="checkbox"]:checked ~ ul .card-12 {
+  background: linear-gradient(to bottom, #C33C83 0px, #C33C83 2vw, black 2vw, black calc(2vw + 4px), white calc(2vw + 4px), white 10vw);
+}
+
+input[type="checkbox"]:checked ~ ul .card-13 span {
+  transform: rotate(45deg);
+}
+
+input[type="checkbox"]:checked ~ ul .card-14 span, 
+input[type="checkbox"]:checked ~ ul .card-15 span, 
+input[type="checkbox"]:checked ~ ul .card-16 span {
+  transform: rotate(90deg);
+}
+
+input[type="checkbox"]:checked ~ ul .card-14 , 
+input[type="checkbox"]:checked ~ ul .card-15 ,
+input[type="checkbox"]:checked ~ ul .card-16 {
+  background: linear-gradient(to left, yellow 0px, yellow 2vw, black 2vw, black calc(2vw + 4px), white calc(2vw + 4px), white 10vw);
+}
+
+.card-1 {
+  grid-area: card-1;
+}
+
+.card-2 {
+  grid-area: card-2;
+}
+
+.card-3 {
+  grid-area: card-3;
+}
+
+.card-4 {
+  grid-area: card-4;
+}
+
+.card-5 {
+  grid-area: card-5;
+}
+
+.card-6 {
+  grid-area: card-6;
+}
+
+.card-7 {
+  grid-area: card-7;
+}
+
+.card-8 {
+  grid-area: card-8;
+}
+
+.card-9 {
+  grid-area: card-9;
+}
+
+.card-10 {
+  grid-area: card-10;
+}
+
+.card-11 {
+  grid-area: card-11;
+}
+
+.card-12 {
+  grid-area: card-12;
+}
+
+.card-13 {
+  grid-area: card-13;
+}
+
+.card-14 {
+  grid-area: card-14;
+}
+
+.card-15 {
+  grid-area: card-15;
+}
+
+.card-16 {
+  grid-area: card-16;
+}
