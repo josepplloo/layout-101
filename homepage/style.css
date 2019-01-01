@@ -13,6 +13,7 @@ body {
 
 .main-nav {
   order: -1;
+  border: 1px solid #0055dd;
 }
 
 .main-nav li {
@@ -55,4 +56,13 @@ body {
   padding: 10px;
   background: #119922;
   order: 1;
+}
+
+@media (max-width: 820px) {
+  .main-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
