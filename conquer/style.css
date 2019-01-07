@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: sticky;
+  background-color: #383e4d;
+  height: 10vh;
+  padding: 2vh;
+}
+
+.nav-item {
+  padding: 1em;
+  list-style: none;
+  border: 1px solid #484e5f;
+}
+
+.nav-item:hover {
+  background-color: #494f60;
+}
+
+.nav-item a {
+  color: antiquewhite;
+  margin: 1em;
+  
+}
+
+.nav-buttom {
+
+}
+
+button-l1 {
+
+}
+
+button-l2 {
+  
+}
+
+button-l3 {
+  
+}

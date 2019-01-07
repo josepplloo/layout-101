@@ -37,7 +37,7 @@ body {
 .main-nav ul {
   list-style: none;
   display: flex;
-  margin: auto;
+  justify-content: space-around;
 }
 
 .main-nav ul li:nth-child(3) {
