@@ -1,37 +1,44 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 .red-text {
   color: red;
   font-size: 36px;
-  font-family: 'Lobster';
+  font-family: 'Inconsolata';
+  font-style: bold;
   padding: 10px 10px 10px 10px;
-
 }
 
 .container {
+  align-items: baseline;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 10px 10px 10px;
-  height: 30vh;
-  width: 30vw;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px;
+  font-family: 'Lato', sans-serif;
 }
 
-.cards {
-  padding: 10px 10px 10px 10px;
-  height: 10vh;
-  width: 10vw;
-  font-family: 'Lobster';
+.card{
+  background: #f8f9f9;
+  border: 1px solid #b5b5b5;
+  border-radius: 3px;
+  box-shadow: 3px 3px 0px #bababa;
+  font-size: 1.1em;
+  margin: 10px;
+  line-height: 1.33em;
+  list-style: none;
+  text-align: center;
 }
 
-.monopoly {
-  padding: 10px 10px 10px 10px;
-  height: 10vh;
-  width: 10vw;
-  font-family: 'Lobster';
+.card:hover{
+  background: #e0e4e4;
+  box-shadow: 1px 1px 0px #bababa;
 }
+
+.card a {
+  text-decoration: none;
+}
+
