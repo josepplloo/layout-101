@@ -1,7 +1,7 @@
 `Layout 101`: My firsts designes 🦑
 ====================================
 
-The aim of this repo is to provides a common examples for start a web developer career.
+The aim of this repo is provide a common examples for start a web developer career.
 
 This repo contains the challenges in order to be faced by difficulty (subjetive):
   

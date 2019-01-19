@@ -153,8 +153,7 @@
   background-size: cover;
   display: flex;
   min-height: 300px;
-  width: 100%;
-  
+  width: 100%; 
 }
 
 .hero-text{
