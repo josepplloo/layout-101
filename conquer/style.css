@@ -162,6 +162,8 @@
   font-size: 32px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   justify-content: center;
+  text-transform: uppercase;
+  text-shadow: 2px 2px #000;
   width: 100%;
 }
 
@@ -182,7 +184,6 @@
 .about-card {
   align-items: center;
   background-color: #f2f2f2;
-  border: 1px solid chocolate;
   display: flex;
   flex-grow: 1;
   flex-direction: column;
@@ -198,7 +199,25 @@ width: 300px;
 
 .about-card > article p {
   width: 290px;
-  }
+}
+.about-button {
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  padding: 10px 30px;
+}
+
+.green-button {
+  background: #178A27;
+}
+
+.blue-button {
+  background: #1686C1;
+}
+
+.red-button {
+  background: #852406;
+}
 
 @media (min-width: 640px) {
   .nav-button {
