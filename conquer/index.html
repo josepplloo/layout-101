@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster">
   <link href="style.css" type="text/css" rel="stylesheet">
   <title>Conquer Template</title>
 </head>
 
 <body>
 
-  <header class="main-nav" >
+  <header class="main-nav">
     <div class="nav-button animation--off">
       <div class="line line1"></div>
       <div class="line line2"></div>
@@ -171,27 +171,50 @@
     </p>
   </article>
 
-  <div id="contact">
-    <form action="" method="get" class="contact-form">
-      <div class="form-name">
-        <label for="name">Enter your name: </label>
-        <input type="text" name="name" id="name" required>
-      </div>
-      <div class="form-email">
-        <label for="email">Enter your email: </label>
-        <input type="email" name="email" id="email" required>
+  <div class="contact-form" id="contact">
+    <h1>Contact Form</h1>
+    <p>Nunc diam leo, fringilla vulputate elit lobortis, consectetur vestibulum quam. Sed id<br>
+      felis ligula. In euismod libero at magna dapibus, in rutrum velit lacinia.<br>
+      Etiam a mi quis arcu varius condimentum.</p>
+    <form action="#contact" method="get">
+      <div class="form-data">
+        <input class="contact-field" type="text" name="name" id="name" placeholder="Name" required>
+        <input class="contact-field" type="email" name="email" id="email" placeholder="Email" required>
+        <input class="contact-field" type="text" name="subject" id="subject" placeholder="Subject" required>
       </div>
       <div class="form-submit">
-        <input type="submit" value="Subscribe!">
+        <textarea class="contact-field" name="message" rows="6" id="comment" placeholder="Your message here..."
+          required></textarea>
+        <input class="about-button form-button" type="submit" value="Send!">
       </div>
     </form>
   </div>
 
-  <div>
-    <footer>
+  <footer class="footer-black">
+    <div class="footer-left">
+      <p class="footer-links">
+        <a href="#home">Homepage</a>
+        ·
+        <a href="#about">About Us</a>
+        ·
+        <a href="#our-services">Services</a>
+        ·
+        <a href="#external">External</a>
+        ·
+        <a href="#contact">Contac</a>
+      </p>
       <p>© 2019 josepplloo</p>
-    </footer>
-  </div>
+    </div>
+    <div class="footer-right">
+      <a target="_blank" href="#"><i class="fa fa-facebook"></i></a>
+      <a target="_blank" href="https://twitter.com/pingoz"><i class="fa fa-twitter"></i></a>
+      <a target="_blank" href="https://www.linkedin.com/in/josem-garciag"><i class="fa fa-linkedin"></i></a>
+      <a target="_blank" href="https://github.com/josepplloo"><i class="fa fa-github"></i></a>
+    </div>
+
+  </footer>
+
 </body>
 <script src="./index.js"></script>
+
 </html>
