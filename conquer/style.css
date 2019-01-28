@@ -148,7 +148,7 @@
   align-items: center;
   background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
   background-attachment: fixed;
-  background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page196/conquer/assets/img/bg-1.jpg");
+  background-image: url("./assets/img/bg-1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -229,7 +229,7 @@ width: 100%;
   align-items: center;
   background: linear-gradient(35deg, #CCFFFF, #FFCCCC, rgb(204, 204, 255));
   background-attachment: fixed;
-  background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page196/conquer/assets/img/bg-2.jpg");
+  background-image: url("./assets/img/bg-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -297,7 +297,7 @@ width: 100%;
 .contact-form {
   align-items: center;
   color: beige;
-  background-image: url("https://www.free-css.com/assets/files/free-css-templates/preview/page196/conquer/assets/img/bg-3.jpg");
+  background-image: url("./assets/img/bg-3.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
